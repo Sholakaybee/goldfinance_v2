@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homepage</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+    <!-- <style>
+      h1 {
+        color: red;
+      }
+    </style> -->
+  </head>
+  <body>
+    <h1 id="hm-one">Careers in Tech</h1>
+    <img id="hm-img" src="/static/background3.jpeg" alt="" />
+    <div class="container">
+      <h2>About our website</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed atque
+        suscipit laudantium quae voluptatem soluta incidunt voluptatum possimus
+        repellat, optio aliquam, aperiam quasi consequuntur ipsam quaerat
+        ratione? Maxime corrupti, a omnis cupiditate rem natus ipsa.
+        Exercitationem fugit, dicta minus suscipit recusandae asperiores fuga
+        nam quas! Suscipit sint commodi iste deserunt molestias nobis. Vero,
+        aliquid repellendus.
+      </p>
+      <div>
+        <a href="/templates/register.html">Register now</a>
+      </div>
+    </div>
+    <h2>Open positions</h2>
+    <div class="jb-job">
+      {% for job in jobs %}
+      <div class="ti-tle">Title {{job['title']}}</div>
+      <div class="vero"><b>Location:</b> {{job['location']}}</div>
+      <div class="vero"><b>Salary:</b> {{job['salary']}}</div>
+      {% endfor %}
+    </div>
+    <button>Contact us</button>
+  </body>
+</html>
