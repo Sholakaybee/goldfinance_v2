@@ -112,7 +112,6 @@ body {
   color: #fff;
   cursor: pointer;
   height: 3.5em;
-  text-overflow: <a href= "/login" class= "loginbtn" >Login</a>;
   width: 10rem;
   z-index: 3;
 }
