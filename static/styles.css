@@ -52,6 +52,10 @@ body {
   margin-top: 1rem;
   z-index: 3;
 }
+.goldhome {
+  text-decoration: none;
+  color: rgb(50, 99, 99);
+}
 .linkproduct {
   position: fixed;
   left: 18rem;
