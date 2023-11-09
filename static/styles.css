@@ -323,6 +323,6 @@ strong {
   display: flex;
   box-sizing: border-box;
 }
-right-col {
-  float: right;
+.right-col {
+  margin-left: 60px;
 }
