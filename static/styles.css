@@ -313,3 +313,16 @@ strong {
   margin-right: 20rem;
   margin-top: -10.5rem;
 }
+/* these are the styes for the about.html */
+.dev-are {
+  font-size: 3rem;
+  text-align: center;
+  color: cadetblue;
+}
+.to-chg {
+  display: flex;
+  box-sizing: border-box;
+}
+right-col {
+  float: right;
+}
